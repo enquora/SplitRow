@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		797710781FDAD27100917866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797710771FDAD27100917866 /* AppDelegate.swift */; };
 		7977107A1FDAD27100917866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797710791FDAD27100917866 /* ViewController.swift */; };
 		7977107D1FDAD27100917866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7977107B1FDAD27100917866 /* Main.storyboard */; };
 		7977107F1FDAD27100917866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7977107E1FDAD27100917866 /* Assets.xcassets */; };
 		797710821FDAD27100917866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797710801FDAD27100917866 /* LaunchScreen.storyboard */; };
 		797710871FDAD28300917866 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B5CB491FD47B8B00983E52 /* Eureka.framework */; };
+=======
+		41B1D69B1FD5F0B400ACA840 /* SplitRow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 41B1D69A1FD5F0B400ACA840 /* SplitRow.podspec */; };
+>>>>>>> f81d161e2640ea7275dba298315a0e3090defc5c
 		79B5CB301FD4756500983E52 /* SplitRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B5CB261FD4756500983E52 /* SplitRow.framework */; };
 		79B5CB351FD4756500983E52 /* SplitRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B5CB341FD4756500983E52 /* SplitRowTests.swift */; };
 		79B5CB371FD4756500983E52 /* SplitRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B5CB291FD4756500983E52 /* SplitRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		7977106F1FDAD24A00917866 /* PostalAddressRow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostalAddressRow.framework; path = Carthage/Build/iOS/PostalAddressRow.framework; sourceTree = "<group>"; };
 		797710751FDAD27100917866 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797710771FDAD27100917866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		7977107E1FDAD27100917866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797710811FDAD27100917866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797710831FDAD27100917866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+=======
+		41B1D69A1FD5F0B400ACA840 /* SplitRow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = SplitRow.podspec; sourceTree = SOURCE_ROOT; };
+>>>>>>> f81d161e2640ea7275dba298315a0e3090defc5c
 		79B5CB261FD4756500983E52 /* SplitRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SplitRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B5CB291FD4756500983E52 /* SplitRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitRow.h; sourceTree = "<group>"; };
 		79B5CB2A1FD4756500983E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 		79B5CB281FD4756500983E52 /* SplitRow */ = {
 			isa = PBXGroup;
 			children = (
+				41B1D69A1FD5F0B400ACA840 /* SplitRow.podspec */,
 				79B5CB401FD4767500983E52 /* SplitRow.swift */,
 				79B5CB421FD4767500983E52 /* SplitRowCell.swift */,
 				79B5CB431FD4767500983E52 /* SplitRowCellTableView.swift */,
@@ -294,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B1D69B1FD5F0B400ACA840 /* SplitRow.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,9 +553,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YB5VLT2EJC;
+				DEVELOPMENT_TEAM = 786S7876S6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -558,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.SplitRow;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -570,9 +582,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = YB5VLT2EJC;
+				DEVELOPMENT_TEAM = 786S7876S6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -585,6 +598,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.SplitRow;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

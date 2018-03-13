@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
     spec.ios.source_files = 'SplitRow/**/*.{swift}'
     spec.ios.frameworks = 'UIKit', 'Foundation'
-    spec.dependency 'Eureka', '~> 4.0'
+    spec.dependency 'Eureka', '~> 4.1'
 end
 
